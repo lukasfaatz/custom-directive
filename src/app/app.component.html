@@ -1,11 +1,3 @@
-<div>
-  <p>Name:
-    <input type="text"  [formControl]="name"/>
-  </p>
-  <div *ngIf="name.invalid && (name.dirty || name.touched)">
-    <p style="color: red">Fehler</p>
-  </div>
-</div>
-<pre>
-  {{name | json}}
-</pre>
+<app-validation></app-validation>
+
+<!--<app-textarea></app-textarea>-->

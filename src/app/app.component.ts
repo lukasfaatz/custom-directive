@@ -6,9 +6,4 @@ import { FormControl, Validators } from '@angular/forms';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'customDirective';
-  hasErrors = true;
-
-  name = new FormControl('', Validators.required);
-
 }

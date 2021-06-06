@@ -3,10 +3,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TextareaComponent } from './textarea/textarea.component';
+import { ValidationComponent } from './validation/validation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TextareaComponent,
+    ValidationComponent
   ],
   imports: [
     BrowserModule,
